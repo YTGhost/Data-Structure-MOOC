@@ -22,7 +22,7 @@ int main()
 {
     int N;
     scanf("%d",&N);
-    //PrintN1(N);
+    // PrintN1(N);
     PrintN2(N);
     system("pause");
     return 0;
