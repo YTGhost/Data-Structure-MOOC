@@ -61,7 +61,7 @@ int MaxSubseqSum4(int A[], int N)
         ThisSum += A[i];
         if (ThisSum > MaxSum)
             MaxSum = ThisSum;
-        else if (ThisSum < 0)
+        if (ThisSum < 0)
             ThisSum = 0;
     }
     return MaxSum;
